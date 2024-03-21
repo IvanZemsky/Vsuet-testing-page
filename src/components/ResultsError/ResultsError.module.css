@@ -1,0 +1,31 @@
+.content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+}
+
+.title{
+   margin-bottom: 25px;
+   font-weight: 700;
+   color: var(--black);
+}
+
+.links{
+   display: flex;
+   gap: 15px;
+}
+
+.link{
+   padding: 15px;
+   border: 3px solid var(--sea-blue);
+   color: var(--black);
+   font-weight: 500;
+   transition: 0.2s all linear;
+}
+
+.link:hover{
+   background-color: var(--sea-blue);
+   color: var(--white);
+}

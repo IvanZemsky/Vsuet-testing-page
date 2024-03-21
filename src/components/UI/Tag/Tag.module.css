@@ -1,0 +1,17 @@
+.tag{
+   display: flex;
+   flex-direction: column;
+   max-width: 150px;
+   border: 2px solid #fff;
+   padding: 5px;
+   text-align: center;
+}
+
+.emoji{
+   font-size: 50px;
+}
+
+.title{
+   font-size: 15px;
+   font-weight: 400;
+}

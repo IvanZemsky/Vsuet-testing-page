@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles/App.css";
+import "./styles/fonts.css";
+import "./styles/wrapper.css";
+import "./styles/_vars.css";
+import { Route, Routes } from "react-router-dom";
+import {LazyTest as Test} from "./pages/Test/LazyTest";
+import {LazyResult as Result} from "./pages/Result/LazyResult";
+import { useSelector } from "react-redux";
+import Layout from "./components/Layout/Layout";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+   const theme = useSelector((state) => state.theme.theme);
+
+   return (
+      <div className={`app ${theme}`}>
+         <Routes>
+            <Route path="/" element={<Layout />}>
+               <Route index element={<Test />} />
+               <Route path="result" element={<Result />} />
+            </Route>
+         </Routes>
+      </div>
+   );
+};
 
 export default App;

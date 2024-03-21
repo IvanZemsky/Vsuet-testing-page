@@ -1,0 +1,18 @@
+.logo{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   padding: 7px 17px;
+   border-radius: 45px;
+}
+
+.logo img{
+   width: 80px;
+}
+
+.text{
+   max-width: 315px;
+   font-size: 15px;
+   font-weight: 600;
+   color: #fff;
+}

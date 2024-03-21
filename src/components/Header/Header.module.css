@@ -1,0 +1,53 @@
+.header{
+   padding: 7px 0;
+   border-bottom: 4px solid var(--blue);
+}
+
+.content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+}
+
+.links{
+   display: flex;
+   gap: 25px;
+   margin-left: auto;
+}
+
+.link {
+   position: relative;
+   display: flex;
+   align-items: center;
+   padding: 5px 40px 5px 10px;
+   font-size: 18px;
+   border-radius: 20px;
+   background: var(--blue);
+   color: var(--inverse-text);
+}
+
+.link:before{
+   content: "";
+   position: absolute;
+   top: 0px;
+   right: 10px;
+}
+
+.link:nth-child(1):before{
+   content: "🏛";
+}
+
+.link:nth-child(2):before{
+   content: "👨‍💼";
+   top: 3px;
+}
+
+:global(.dark) .link span{
+   color: var(--white);
+}
+
+.link:hover span{
+   background-color: rgba(0,0,0,0);
+   color: var(--white);
+}

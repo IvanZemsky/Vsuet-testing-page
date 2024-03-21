@@ -1,0 +1,49 @@
+.answer{
+   position: relative;
+   flex: 1 0 auto;
+}
+
+.answerRadio{
+   display: none;
+}
+
+.answerText{
+   position: relative;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   padding: 10px 28px;
+   color: var(--light-text);
+   font-weight: 500;
+   background-color: var(--light-background);
+   overflow: hidden;
+   user-select: none;
+   cursor: pointer;
+}
+
+.answerRadio:checked + .answerText{
+   background-color: var(--sea-blue);
+   color: #fff;
+}
+
+.answerText::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: translateX(-100%);
+   width: 9px;
+   height: 100%;
+   background-color: var(--sky-blue);
+   transition: transform 0.2s linear;
+}
+
+.answerRadio:checked + .answerText::before{
+   transform: translateX(0);
+}
+
+.answerText:hover{
+   background-color: var(--sea-blue);
+   color: #fff;
+}

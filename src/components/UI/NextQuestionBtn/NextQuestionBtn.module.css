@@ -1,0 +1,21 @@
+.nextQuestionBtn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 41%;
+   background-color: var(--dark-background);
+}
+
+.nextQuestionBtn svg{
+   width: 42px;
+   height: 74px;
+   fill: var(--sea-blue);
+}
+
+.nextQuestionBtn:hover{
+  background-color: var(--light-blue);
+}
+
+.nextQuestionBtn:hover svg{
+   fill: #FFF;
+}

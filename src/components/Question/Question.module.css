@@ -1,0 +1,10 @@
+.question{
+   width: 100%;
+   max-width: 908px;
+   align-self: center;
+}
+
+.questionTitle{
+   font-size: 28px;
+   font-weight: 500;
+}

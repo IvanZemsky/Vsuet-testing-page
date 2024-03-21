@@ -1,0 +1,36 @@
+.progressWrap{
+   position: relative;
+   width: 100%;
+   margin-bottom: 15px;
+}
+
+.progressInfo{
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   width: 100%;
+   height: 100%;
+   color: var(--blue);
+   font-weight: 500;
+   font-size: 19px;
+}
+
+.progressLine{
+   display: block;
+   width: 100%;
+   height: 32px;
+   border-radius: 0;
+}
+
+.progressLine::-webkit-progress-bar{
+   background-color: var(--invisible-blue);
+}
+
+.progressLine::-webkit-progress-value{
+   background-color: var(--light-blue);
+   transition: all 0.12s linear;
+}

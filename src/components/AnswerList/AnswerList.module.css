@@ -1,0 +1,10 @@
+.controls{
+   display: flex;
+   height: 328px;
+}
+
+.answersList{
+   display: flex;
+   flex-direction: column;
+   width: 59%;
+}

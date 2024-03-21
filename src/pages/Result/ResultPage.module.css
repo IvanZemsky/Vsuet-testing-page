@@ -1,0 +1,22 @@
+.resultPage{
+   padding: 25px 0;
+}
+
+.resultHeader{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   gap: 15px;
+   margin-bottom: 15px;
+}
+
+.testName{
+   font-weight: 600;
+   color: var(--dark-text);
+   font-size: 23px;
+}
+
+.resultCounter{
+   font-size: 20px;
+}

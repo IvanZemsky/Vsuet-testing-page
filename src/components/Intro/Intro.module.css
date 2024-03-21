@@ -1,0 +1,35 @@
+.intro{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.content{
+   width: 80%;
+   padding: 45px;
+   border-radius: 45px;
+   background-color: #6363ff;
+   color: #fff;
+   line-height: 1.4;
+   font-weight: 600;
+}
+
+.title{
+   margin-bottom: 20px;
+   font-weight: 700;
+   font-size: 28px;
+}
+
+.desc{
+   margin-bottom: 15px;
+}
+
+.name{
+   text-decoration: underline;
+   margin-bottom: 15px;
+}
+
+.tags{
+   display: flex;
+   gap: 15px;
+}

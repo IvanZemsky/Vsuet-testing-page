@@ -1,0 +1,21 @@
+.testPage > div {
+   height: 100%;
+}
+
+.content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+}
+
+.testName{
+   margin-top: 10px;
+   font-size: 20px;
+   font-weight: 700;
+   color: var(--sky-blue);
+}
+
+:global(.dark) .testName{
+   color: var(--text);
+}

@@ -1,0 +1,22 @@
+.categoriesBtn{
+   width: 45px;
+   height: 45px;
+   padding: 3px;
+   border: 2px solid var(--sky-blue);
+   border-radius: 15px;
+   transition: 0.15s background-color linear;
+}
+
+.categoriesBtn svg{
+   width: 100%;
+   fill: var(--sky-blue);
+   transition: 0.15s fill linear;
+}
+
+.categoriesBtn:hover{
+   background-color: var(--sky-blue);
+}
+
+.categoriesBtn:hover svg{
+   fill: var(--white);
+}
