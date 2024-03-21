@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import Header from "../Header/Header";
 import { Outlet } from "react-router-dom";
+import Footer from './../Footer/Footer';
 
 const Layout = () => {
    return (
@@ -9,6 +10,7 @@ const Layout = () => {
          <Suspense>
             <Outlet />
          </Suspense>
+         <Footer />
       </>
    );
 };

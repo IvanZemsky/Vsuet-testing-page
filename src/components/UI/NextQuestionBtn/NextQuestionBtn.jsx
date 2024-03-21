@@ -11,7 +11,7 @@ const NextQuestionBtn = ({onNextQuestionClick, selectedAnswerIndex}) => {
          onClick={onNextQuestionClick}
          disabled={isAnswerSelected}
       >
-         <RightArrowIcon />
+         ☑️
       </button>
    );
 };

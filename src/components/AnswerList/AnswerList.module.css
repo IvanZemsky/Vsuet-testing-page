@@ -1,10 +1,12 @@
 .controls{
    display: flex;
+   gap: 15px;
    height: 328px;
 }
 
 .answersList{
    display: flex;
    flex-direction: column;
+   gap: 10px;
    width: 59%;
 }

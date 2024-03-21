@@ -12,8 +12,11 @@
 }
 
 .testName{
+   padding: 10px;
+   border-radius: 25px;
    font-weight: 600;
-   color: var(--dark-text);
+   color: var(--white);
+   background-color: var(--sky-blue);
    font-size: 23px;
 }
 

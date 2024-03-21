@@ -3,13 +3,17 @@
    justify-content: center;
    align-items: center;
    width: 41%;
+   border-radius: 35px;
+   font-size: 50px;
    background-color: var(--dark-background);
+   transition: 0.14s all linear;
 }
 
 .nextQuestionBtn svg{
    width: 42px;
    height: 74px;
    fill: var(--sea-blue);
+   transition: 0.14s all linear;
 }
 
 .nextQuestionBtn:hover{

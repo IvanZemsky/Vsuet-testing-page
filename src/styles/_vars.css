@@ -4,10 +4,10 @@
    --light-grey: #3a3a3a;
    --dark-grey: #313131;
    --white: #fff;
-   --blue: #6363ff;
+   --blue: #44a5ff;
    --light-blue: #B1E3FF;
    --sky-blue: #58AFFF;
-   --sea-blue: #84C4FF;
+   --sea-blue: #99ceff;
    --super-light-blue: #d1f4ff;
    --invisible-blue: #E0F0FF;
    --red: #ff5454;
@@ -31,7 +31,6 @@
    --dark-background: var(--dark-grey);
    --light-background: var(--light-grey);
    --text: #e8e8e8;
-   --inverse-text: var(--light-black);
    --dark-text: var(--white);
    --super-text: var(--white);
 

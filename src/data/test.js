@@ -1,7 +1,7 @@
   export const test = {
       id: 1,
-      name: "Frontend-разработка",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      name: "Информационные системы и программирование",
+      desc: "Наш университет предлагает пройти простой тест на Ваши навыки, увлечения и интересы и узнать, подходит ли Вам обучение по специальности #09.02.07:",
       category: "Программирование",
       cover: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=640&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       trueResult: 10,

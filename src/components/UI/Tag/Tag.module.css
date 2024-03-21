@@ -1,9 +1,10 @@
 .tag{
    display: flex;
    flex-direction: column;
-   max-width: 150px;
+   width: 185px;
    border: 2px solid #fff;
-   padding: 5px;
+   border-bottom: 5px solid #fff;
+   padding: 7px;
    text-align: center;
 }
 

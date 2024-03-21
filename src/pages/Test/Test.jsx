@@ -23,10 +23,10 @@ const Test = () => {
       setIsLoading(false);
    }, [test]);
 
-   if (!isStarted) return <Intro/>
+   if (!isStarted) return <Intro desc={test.desc} setIsStarted={setIsStarded}/>
 
    return (
-      isLoading ? (<p>Loading</p>) :
+      isLoading ? (<p>Загрузка...</p>) :
       <main className={styles.testPage}>
          <div className={[styles.content, "wrapper"].join(" ")}>
             <h1 className={styles.testName}>{test.name}</h1>

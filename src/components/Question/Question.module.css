@@ -1,10 +1,14 @@
 .question{
+   align-self: center;
    width: 100%;
    max-width: 908px;
-   align-self: center;
+   padding: 40px;
+   border-radius: 45px;
+   background-color: var(--background);
 }
 
 .questionTitle{
+   margin-bottom: 20px;
    font-size: 28px;
    font-weight: 500;
 }

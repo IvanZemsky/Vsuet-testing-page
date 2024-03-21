@@ -5,10 +5,10 @@
 }
 
 .content{
-   width: 80%;
+   max-width: 1150px;
    padding: 45px;
    border-radius: 45px;
-   background-color: #6363ff;
+   background-color: var(--blue);
    color: #fff;
    line-height: 1.4;
    font-weight: 600;
@@ -26,10 +26,30 @@
 
 .name{
    text-decoration: underline;
+   margin-bottom: 20px;
+}
+
+.tagsWrap{
    margin-bottom: 15px;
 }
 
 .tags{
    display: flex;
    gap: 15px;
+   margin-bottom: 15px;
+}
+
+.tagsText{
+   font-weight: 400;
+}
+
+.startBtn{
+   padding: 10px 15px;
+   background-color: #fff;
+   color: var(--text);
+   font-weight: 500;
+}
+
+.startBtn:hover{
+   text-decoration: underline;
 }

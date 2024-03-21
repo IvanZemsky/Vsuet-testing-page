@@ -1,31 +1,40 @@
-import styles from './Intro.module.css'
-import Tag from './../UI/Tag/Tag';
+import styles from "./Intro.module.css";
+import Tag from "./../UI/Tag/Tag";
 
-const Intro = () => {
-  return (
-    <section className={[styles.intro, "wrapper"].join(" ")}>
-      <div className={styles.content}>
-         <h1 className={styles.title}>
-            Добро пожаловать! 👋
-         </h1>
-         <p className={styles.desc}>
-            Наш университет предлагает Вам пройти простой тест на ваши навыки, увлечения и интересы и узнать, подходит ли вам обучение по специальности #09.02.07:
-         </p>
-         <p className={styles.name}>
-         «Информационные системы и программирование»
-         </p>
-         <div className={styles.tagsWrap}>
-            <div className={styles.tags}>
-              <Tag emoji="💻" title="Компьютерное моделирование"/>
-              <Tag emoji="💻" title="Компьютерное моделирование"/>
-              <Tag emoji="💻" title="Компьютерное моделирование"/>
-              <Tag emoji="💻" title="Компьютерное моделирование"/>
+const Intro = ({ desc, setIsStarted }) => {
+   return (
+      <section className={[styles.intro, "wrapper"].join(" ")}>
+         <div className={styles.content}>
+            <h1 className={styles.title}>
+               Добро пожаловать! 👋
+            </h1>
+            <p className={styles.desc}>
+               {desc}
+            </p>
+            <p className={styles.name}>
+               «Информационные системы и программирование»
+            </p>
+            <div className={styles.tagsWrap}>
+               <div className={styles.tags}>
+                  <Tag emoji="🖱️" title="Компьютерное моделирование" />
+                  <Tag emoji="💻" title="Программирование" />
+                  <Tag emoji="⚙️" title="Автоматизация" />
+                  <Tag emoji="🔬" title="Системное мышление" />
+               </div>
+               <p className={styles.tagsText}>
+                  Если Вас интересуют эти навыки и Вы хотите овладеть ими,
+                  пройдите тест и убедитесь в правильности своего выбора!
+               </p>
             </div>
-            <p className={styles.tagtext}></p>
+            <button
+               className={styles.startBtn}
+               onClick={() => setIsStarted(true)}
+            >
+               Начать
+            </button>
          </div>
-      </div>
-    </section>
-  )
-}
+      </section>
+   );
+};
 
-export default Intro
+export default Intro;

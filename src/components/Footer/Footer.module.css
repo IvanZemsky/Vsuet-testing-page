@@ -1,0 +1,27 @@
+.footer{
+   margin-top: auto;
+}
+
+.content{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding: 15px 25px;
+   color: var(--inverse-text);
+   background-color: var(--blue);
+   border-radius: 35px 35px 0 0;
+   font-size: 17px;
+}
+
+.socials{
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+   gap: 15px;
+}
+
+.footer svg{
+   width: 32px;
+   height: 32px;
+   fill: var(--inverse-text);
+}

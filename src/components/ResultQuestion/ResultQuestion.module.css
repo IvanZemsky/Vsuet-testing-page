@@ -1,9 +1,11 @@
 .question{
    padding: 15px;
    margin-bottom: 15px;
-   border: 3px solid var(--sky-blue);
-   border-left: 10px solid var(--sky-blue);
+   border: 4px solid var(--sky-blue);
+   border-right: 10px solid var(--sky-blue);
+   border-bottom: 10px solid var(--sky-blue);
    border-radius: 32px;
+   background-color: var(--background);
    font-size: 20px;
 }
 

@@ -2,12 +2,23 @@
    display: flex;
    align-items: center;
    gap: 15px;
-   padding: 7px 17px;
    border-radius: 45px;
+   color: #fff;
 }
 
-.logo img{
-   width: 80px;
+.mainText{
+   text-align: right;
+   line-height: 0.9;
+}
+
+.abbr{
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.year{
+   font-size: 15px;
+   font-weight: 500;
 }
 
 .text{

@@ -16,10 +16,12 @@
    padding: 10px 28px;
    color: var(--light-text);
    font-weight: 500;
-   background-color: var(--light-background);
+   background-color: var(--background);
+   border-radius: 30px;
    overflow: hidden;
    user-select: none;
    cursor: pointer;
+   transition: 0.14s all linear;
 }
 
 .answerRadio:checked + .answerText{
@@ -33,7 +35,7 @@
    top: 0;
    left: 0;
    transform: translateX(-100%);
-   width: 9px;
+   width: 12px;
    height: 100%;
    background-color: var(--sky-blue);
    transition: transform 0.2s linear;
