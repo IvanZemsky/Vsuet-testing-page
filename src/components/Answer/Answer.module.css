@@ -25,7 +25,7 @@
 }
 
 .answerRadio:checked + .answerText{
-   background-color: var(--sea-blue);
+   background-color: var(--selected-answer);
    color: #fff;
 }
 
@@ -37,7 +37,7 @@
    transform: translateX(-100%);
    width: 12px;
    height: 100%;
-   background-color: var(--sky-blue);
+   background-color: var(--checked-answer);
    transition: transform 0.2s linear;
 }
 
@@ -46,6 +46,20 @@
 }
 
 .answerText:hover{
-   background-color: var(--sea-blue);
+   background-color: var(--selected-anser);
    color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+   .answerText{
+      padding: 15px 19px;
+      border-radius: 15px;
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 575px) {
+   .answerText{
+      padding: 18px 19px;
+   }
 }

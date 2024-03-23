@@ -2,6 +2,7 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   transition: 0.1s background-color linear;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
    overflow-y: scroll;
    background: url(../assets/img/background.jpg) center / cover;
 }
+
 
 ul, ol, li{
    list-style: none;

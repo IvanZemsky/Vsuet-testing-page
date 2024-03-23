@@ -3,6 +3,7 @@ import { createSlice, current } from "@reduxjs/toolkit";
 const initialState = {
    currentTest: {},
    currentQuestionIndex: 0,
+   isStarted: false,
    currentResult: [], // {questionIndex, selectedAnswerIndex}
    currentResultCounter: 0,
    results: [], // {testId, resultCounter, {questionIndex, selectedAnswerIndex}[]}
@@ -12,6 +13,11 @@ const testSlice = createSlice({
    name: "test",
    initialState,
    reducers: {
+      setIsStarted(state, action) {
+         state.isStarted = action.payload;
+         console.info(current(state))
+      },
+
       setCurrentTest(state, action) {
          state.currentTest = action.payload;
          console.log(state.currentTest);
@@ -59,6 +65,7 @@ const testSlice = createSlice({
          return {
             ...initialState,
             results: state.results,
+            isStarted: state.isStarted
          };
       },
    },
@@ -67,6 +74,7 @@ const testSlice = createSlice({
 export default testSlice;
 
 export const {
+   setIsStarted,
    setCurrentTest,
    nextQuestion,
    addToCurrentResult,

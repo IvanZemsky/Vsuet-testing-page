@@ -29,7 +29,7 @@
    color: #fff;
 }
 
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 945px) {
    .mainText{
       display: none;
    }

@@ -3,7 +3,6 @@
    flex-direction: column;
    width: 185px;
    border: 3px solid #fff;
-   border-bottom: 3px solid #fff;
    padding: 7px;
    text-align: center;
 }
@@ -20,5 +19,15 @@
 @media screen and (max-width: 900px) {
    .title{
       font-size: 13px;
+   }
+}
+
+@media screen and (max-width: 520px) {
+   .tag{
+      width: 45%;
+      flex: 1 1 auto;
+   }
+   .title{
+      font-size: 11px;
    }
 }

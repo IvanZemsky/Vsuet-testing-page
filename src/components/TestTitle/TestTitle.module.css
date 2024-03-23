@@ -1,0 +1,37 @@
+.testTitleWrap{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.testName{
+   flex-grow: 0;
+   padding: 10px;
+   border-radius: 20px;
+   background-color: var(--sky-blue);
+   font-size: 20px;
+   font-weight: 700;
+   color: var(--inverse-text);
+}
+
+.backBtn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-shrink: 0;
+   width: 40px;
+   height: 40px;
+   border-radius: 18px;
+   border: 2px solid var(--blue);
+   font-size: 22px;
+   font-weight: 600;
+   color: var(--inverse-text);
+   background-color: var(--block-background);
+}
+
+@media screen and (max-width: 575px) {
+   .testName{
+      font-size: 15px;
+   }
+}

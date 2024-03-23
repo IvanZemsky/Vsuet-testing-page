@@ -1,7 +1,6 @@
 .controls{
    display: flex;
    gap: 15px;
-   height: 328px;
 }
 
 .answersList{
@@ -9,4 +8,15 @@
    flex-direction: column;
    gap: 10px;
    width: 59%;
+   aspect-ratio: 2 / 1.4;
+}
+
+@media screen and (max-width: 575px) {
+   .controls{
+      flex-direction: column;
+   }
+   .answersList{
+      aspect-ratio: unset;
+      width: 100%;
+   }
 }

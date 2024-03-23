@@ -1,7 +1,11 @@
 import styles from "./Intro.module.css";
 import Tag from "./../UI/Tag/Tag";
+import { useDispatch } from "react-redux";
+import { setIsStarted } from "../../store/slices/testSlice";
 
-const Intro = ({ desc, setIsStarted }) => {
+const Intro = ({ desc }) => {
+   const dispatch = useDispatch();
+   
    return (
       <section className={[styles.intro, "wrapper"].join(" ")}>
          <div className={styles.content}>
@@ -28,7 +32,7 @@ const Intro = ({ desc, setIsStarted }) => {
             </div>
             <button
                className={styles.startBtn}
-               onClick={() => setIsStarted(true)}
+               onClick={() => dispatch(setIsStarted(true))}
             >
                Начать
             </button>

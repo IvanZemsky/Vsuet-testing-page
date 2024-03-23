@@ -16,19 +16,24 @@
    --light-background: var(--invisible-blue);
    --dark-background: var(--super-light-blue);
    --nav-background: var(--super-blue);
-   --element-background: var(--blue);
+   --block-background: var(--blue);
    --text: var(--light-black);
    --inverse-text: var(--white);
    --super-text: var(--default-black);
    --dark-text: var(--blue);
    --background-img-filter: blur(1px);
+
+   --selected-answer: var(--sea-blue);
+   --checked-answer: var(--sky-blue);
 }
 
 .dark{
    --background: var(--light-black);
    --dark-background: var(--dark-grey);
    --light-background: var(--light-grey);
-   --element-background: var(--light-black);
+   --block-background: var(--light-black);
+   --selected-answer: var(--dark-grey);
+   --checked-answer: var(--light-grey);
    --text: #e8e8e8;
    --inverse-text: #e8e8e8;
    --dark-text: var(--white);

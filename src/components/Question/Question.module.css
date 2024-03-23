@@ -12,3 +12,20 @@
    font-size: 28px;
    font-weight: 500;
 }
+
+@media screen and (max-width: 650px) {
+   .question{
+      padding: 30px;
+   }
+}
+
+@media screen and (max-width: 575px) {
+   .question{
+      padding: 23px;
+   }
+   .questionTitle{
+      font-size: 21px;
+      margin-bottom: 15px;
+   }
+}
+

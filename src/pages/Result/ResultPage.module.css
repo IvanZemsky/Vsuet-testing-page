@@ -1,5 +1,7 @@
-.resultPage{
-   padding: 10px 0;
+.content{
+   display: flex;
+   flex-direction: column;
+   gap: 15px
 }
 
 .resultHeader{

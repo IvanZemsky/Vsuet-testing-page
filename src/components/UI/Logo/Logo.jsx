@@ -3,7 +3,7 @@ import styles from './Logo.module.css'
 
 const Logo = () => {
    return (
-      <a href="https://vsuet.ru/" className={styles.logo}>
+      <a href="https://vsuet.ru/" target="_blank" className={styles.logo}>
          <div className={styles.text}>
             <span className={styles.abbr}>ВГУИТ</span>
             <br/>
