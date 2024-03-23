@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/vsuet-test-page/static/css/main.f69d9d4c.css",
-    "main.js": "/vsuet-test-page/static/js/main.95de46a2.js",
-    "static/css/528.cb99bde7.chunk.css": "/vsuet-test-page/static/css/528.cb99bde7.chunk.css",
+    "main.css": "/vsuet-test-page/static/css/main.d420677c.css",
+    "main.js": "/vsuet-test-page/static/js/main.6e765e62.js",
+    "static/css/528.8a7338d5.chunk.css": "/vsuet-test-page/static/css/528.8a7338d5.chunk.css",
     "static/js/528.d899c2aa.chunk.js": "/vsuet-test-page/static/js/528.d899c2aa.chunk.js",
-    "static/css/40.4c261a2b.chunk.css": "/vsuet-test-page/static/css/40.4c261a2b.chunk.css",
+    "static/css/40.b32dc95d.chunk.css": "/vsuet-test-page/static/css/40.b32dc95d.chunk.css",
     "static/js/40.2a906832.chunk.js": "/vsuet-test-page/static/js/40.2a906832.chunk.js",
     "static/media/Montserrat-ExtraBold.ttf": "/vsuet-test-page/static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
     "static/media/Montserrat-Bold.ttf": "/vsuet-test-page/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
@@ -13,15 +13,15 @@
     "static/media/Montserrat-Regular.ttf": "/vsuet-test-page/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/background.jpg": "/vsuet-test-page/static/media/background.70939a8ba7c366a275b6.jpg",
     "index.html": "/vsuet-test-page/index.html",
-    "main.f69d9d4c.css.map": "/vsuet-test-page/static/css/main.f69d9d4c.css.map",
-    "main.95de46a2.js.map": "/vsuet-test-page/static/js/main.95de46a2.js.map",
-    "528.cb99bde7.chunk.css.map": "/vsuet-test-page/static/css/528.cb99bde7.chunk.css.map",
+    "main.d420677c.css.map": "/vsuet-test-page/static/css/main.d420677c.css.map",
+    "main.6e765e62.js.map": "/vsuet-test-page/static/js/main.6e765e62.js.map",
+    "528.8a7338d5.chunk.css.map": "/vsuet-test-page/static/css/528.8a7338d5.chunk.css.map",
     "528.d899c2aa.chunk.js.map": "/vsuet-test-page/static/js/528.d899c2aa.chunk.js.map",
-    "40.4c261a2b.chunk.css.map": "/vsuet-test-page/static/css/40.4c261a2b.chunk.css.map",
+    "40.b32dc95d.chunk.css.map": "/vsuet-test-page/static/css/40.b32dc95d.chunk.css.map",
     "40.2a906832.chunk.js.map": "/vsuet-test-page/static/js/40.2a906832.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f69d9d4c.css",
-    "static/js/main.95de46a2.js"
+    "static/css/main.d420677c.css",
+    "static/js/main.6e765e62.js"
   ]
 }
