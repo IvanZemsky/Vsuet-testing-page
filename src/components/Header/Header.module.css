@@ -1,6 +1,8 @@
 .header{
+   position: relative;
    padding: 14px 0;
-   border-bottom: 4px solid var(--blue);
+   border-bottom: 4px solid var(--element-background);
+   font-size: 20px;
 }
 
 .content{
@@ -21,9 +23,9 @@
    display: flex;
    align-items: center;
    padding: 5px 40px 5px 10px;
-   font-size: 18px;
+   font-size: 0.9em;
    border-radius: 20px;
-   background: var(--blue);
+   background: var(--element-background);
    color: var(--inverse-text);
 }
 
@@ -40,7 +42,7 @@
 
 .link:nth-child(2):before{
    content: "👨‍💼";
-   top: 3px;
+   top: 0.14em;
 }
 
 :global(.dark) .link span{
@@ -50,4 +52,31 @@
 .link:hover span{
    background-color: rgba(0,0,0,0);
    color: var(--white);
+}
+
+@media screen and (max-width: 610px) {
+   .content{
+      gap: 15px;
+   }
+
+   .links{
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateY(-100%);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      width: 100vw;
+      padding: 15px 120px 15px 15px;
+      border-bottom: 5px solid var(--white);
+      background-color: var(--nav-background);
+      z-index: 400;
+   }
+
+   .linksOpened{
+      transform: translateY(0);
+   }
+   
 }

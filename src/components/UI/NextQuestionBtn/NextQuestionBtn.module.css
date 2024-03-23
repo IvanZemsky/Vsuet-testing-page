@@ -2,6 +2,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-shrink: 0;
    width: 41%;
    border-radius: 35px;
    font-size: 50px;

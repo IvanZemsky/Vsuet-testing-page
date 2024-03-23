@@ -11,7 +11,6 @@ body {
    font-style: normal;
    overflow-y: scroll;
    background: url(../assets/img/background.jpg) center / cover;
-   backdrop-filter: blur(1px);
 }
 
 ul, ol, li{

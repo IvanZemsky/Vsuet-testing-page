@@ -3,10 +3,11 @@
    align-items: center;
    gap: 15px;
    border-radius: 45px;
+   text-shadow: 1px 1px 1px #000;
    color: #fff;
 }
 
-.mainText{
+.text{
    text-align: right;
    line-height: 0.9;
 }
@@ -21,9 +22,15 @@
    font-weight: 500;
 }
 
-.text{
+.mainText{
    max-width: 315px;
    font-size: 15px;
    font-weight: 600;
    color: #fff;
+}
+
+@media screen and (max-width: 935px) {
+   .mainText{
+      display: none;
+   }
 }

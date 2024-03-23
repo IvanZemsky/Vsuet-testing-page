@@ -23,7 +23,9 @@ const Test = () => {
       setIsLoading(false);
    }, [test]);
 
-   if (!isStarted) return <Intro desc={test.desc} setIsStarted={setIsStarded}/>
+   if (!isStarted) {
+      return <Intro desc={test.desc} setIsStarted={setIsStarded}/>
+   }
 
    return (
       isLoading ? (<p>Загрузка...</p>) :

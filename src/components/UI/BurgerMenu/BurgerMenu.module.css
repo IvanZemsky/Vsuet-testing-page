@@ -1,0 +1,23 @@
+.burger{
+   position: relative;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-shrink: 0;
+   width: 30px;
+   height: 25px;
+   margin-left: auto;
+   z-index: 450;
+}
+
+.burger span{
+   width: 100%;
+   height: 2px;
+   background-color: #fff;
+}
+
+@media screen and (max-width: 610px) {
+   .burger{
+      display: flex;
+   }
+}

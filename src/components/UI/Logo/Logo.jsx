@@ -4,12 +4,12 @@ import styles from './Logo.module.css'
 const Logo = () => {
    return (
       <a href="https://vsuet.ru/" className={styles.logo}>
-         <div className={styles.mainText}>
+         <div className={styles.text}>
             <span className={styles.abbr}>ВГУИТ</span>
             <br/>
             <span className={styles.year}>1930</span>
          </div>
-         <span className={styles.text}>Воронежский государственный университет инженерных технологий</span>
+         <span className={styles.mainText}>Воронежский государственный университет инженерных технологий</span>
       </a>
    );
 };
