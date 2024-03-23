@@ -55,6 +55,10 @@
 }
 
 @media screen and (max-width: 610px) {
+   .header{
+      padding: 7px 0;
+   }
+
    .content{
       gap: 15px;
    }

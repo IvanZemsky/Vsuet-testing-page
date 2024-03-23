@@ -1,7 +1,6 @@
 .progressWrap{
    position: relative;
    width: 100%;
-   margin-bottom: 15px;
 }
 
 .progressInfo{
@@ -14,7 +13,7 @@
    gap: 5px;
    width: 100%;
    height: 100%;
-   color: var(--light-black);
+   color: var(--text);
    font-weight: 500;
    font-size: 19px;
 }
@@ -31,7 +30,25 @@
    background-color: var(--white);
 }
 
+:global(.dark) .progressLine::-webkit-progress-bar{
+   background-color: var(--light-grey);
+}
+
 .progressLine::-webkit-progress-value{
    background-color: var(--sea-blue);
    transition: all 0.12s linear;
 }
+
+:global(.dark) .progressLine::-webkit-progress-value{
+   background-color: var(--light-black);
+}
+
+@media screen and (max-width: 470px) {
+   .progressInfo{
+      font-size: 16px;
+   }
+   .progressLine{
+      height: 25px;
+   }
+}
+

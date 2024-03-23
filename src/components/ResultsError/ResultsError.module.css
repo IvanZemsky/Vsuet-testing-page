@@ -1,31 +1,32 @@
-.content{
+.emptyResult{
    display: flex;
-   flex-direction: column;
    align-items: center;
    justify-content: center;
-   height: 100%;
+}
+
+.content{
+   padding: 35px;
+   border-radius: 20px;
+   background-color: var(--block-background);
 }
 
 .title{
-   margin-bottom: 25px;
+   margin-bottom: 30px;
    font-weight: 700;
-   color: var(--black);
-}
-
-.links{
-   display: flex;
-   gap: 15px;
+   color: var(--inverse-text);
 }
 
 .link{
+   display: block;
+   width: 100%;
    padding: 15px;
-   border: 3px solid var(--sea-blue);
-   color: var(--black);
+   border-radius: 15px;
+   color: var(--text);
+   background-color: var(--background);
    font-weight: 500;
    transition: 0.2s all linear;
 }
 
 .link:hover{
-   background-color: var(--sea-blue);
-   color: var(--white);
+   text-decoration: underline;
 }

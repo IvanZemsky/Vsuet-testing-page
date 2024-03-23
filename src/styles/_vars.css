@@ -31,6 +31,7 @@
    --background: var(--light-black);
    --dark-background: var(--dark-grey);
    --light-background: var(--light-grey);
+   --nav-background: var(--dark-grey);
    --block-background: var(--light-black);
    --selected-answer: var(--dark-grey);
    --checked-answer: var(--light-grey);

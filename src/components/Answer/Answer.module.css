@@ -46,7 +46,7 @@
 }
 
 .answerText:hover{
-   background-color: var(--selected-anser);
+   background-color: var(--selected-answer);
    color: #fff;
 }
 
