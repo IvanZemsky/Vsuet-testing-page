@@ -1,5 +1,6 @@
 .controls{
    display: flex;
+   flex-grow: 1;
    gap: 15px;
 }
 

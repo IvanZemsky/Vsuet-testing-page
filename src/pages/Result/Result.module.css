@@ -8,11 +8,11 @@
 
 .resultInfo {
    align-self: center;
-   max-width: 700px;
+   max-width: 715px;
    width: 100%;
    padding: 35px;
    margin: auto 0;
-   border-radius: 35px;
+   border-radius: 55px;
    background-color: var(--block-background);
    color: var(--inverse-text);
    transition: 0.2s all linear;
@@ -20,16 +20,52 @@
 
 .resultText{
    margin-bottom: 25px;
+   font-size: 19px;
 }
 
-.link{
-   display: inline-block;
+.links{
+   display: flex;
+   gap: 20px;
+}
+
+.link:nth-child(1) {
+   flex-shrink: 0;
+}
+
+.link, .communityLink{
+   display: flex;
+   align-items: center;
+   justify-content: center;
    padding: 15px;
    background-color: var(--white);
    color: var(--default-black);
    font-weight: 500;
+   text-align: center;
+}
+
+.communityLink{
+   flex-grow: 1;
 }
 
 .link:hover{
    text-decoration: underline;
+}
+
+@media screen and (max-width: 645px) {
+   .links{
+      flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 515px) {
+   .resultInfo{
+      border-radius: 47px;
+      padding: 27px;
+   }
+   .resultText{
+      font-size: 15px;
+   }
+   .link, .communityLink{
+      font-size: 18px;
+   }
 }

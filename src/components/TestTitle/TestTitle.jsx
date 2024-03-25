@@ -2,8 +2,9 @@ import { useNavigate } from "react-router-dom";
 import styles from "./TestTitle.module.css";
 import { useDispatch } from "react-redux";
 import { setIsStarted, clearCurrentTestState } from "../../store/slices/testSlice";
+import { memo } from "react";
 
-const TestTitle = ({ testName }) => {
+const TestTitle = memo(({ testName }) => {
    const navigate = useNavigate();
    const dispatch = useDispatch();
 
@@ -20,6 +21,6 @@ const TestTitle = ({ testName }) => {
          </button>
       </div>
    );
-};
+});
 
 export default TestTitle;

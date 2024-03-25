@@ -1,4 +1,6 @@
 .question {
+   display: flex;
+   flex-direction: column;
    align-self: center;
    width: 100%;
    max-width: 908px;
@@ -18,7 +20,7 @@
       padding: 23px;
    }
    .questionTitle {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 600;
       padding-left: 10px;
       margin-bottom: 15px;

@@ -1,3 +1,13 @@
+.result{
+   margin-bottom: 20px;
+   border-radius: 45px;
+   background-color: var(--super-blue);
+}
+
+:global(.dark) .result{
+   background-color: var(--dark-grey);
+}
+
 .resultNumber{
    text-align: center;
    font-size: 100px;

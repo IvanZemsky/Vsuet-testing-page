@@ -17,7 +17,6 @@ import { useLocation } from "react-router-dom";
 const Test = () => {
    const dispatch = useDispatch();
 
-   const [isLoading, setIsLoading] = useState(true);
    const currentQuestionIndex = useSelector(
       (state) => state.test.currentQuestionIndex
    );
@@ -28,17 +27,13 @@ const Test = () => {
    useEffect(() => {
       dispatch(clearCurrentTestState());
       dispatch(setCurrentTest(test));
-      setIsLoading(false);
    }, [location]);
-
 
    if (!isStarted) {
       return <Intro desc={test.desc} />;
    }
 
-   return isLoading ? (
-      <p>Загрузка...</p>
-   ) : (
+   return(
       <main className={styles.testPage}>
          <div className={[styles.content, "wrapper"].join(" ")}>
             <TestTitle testName={test.name} />
