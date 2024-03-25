@@ -34,15 +34,15 @@
    position: absolute;
    top: 0px;
    right: 10px;
+   line-height: 1.7;
 }
 
 .link:nth-child(1):before{
-   content: "🏛";
+   content: "📖";
 }
 
 .link:nth-child(2):before{
    content: "👨‍💼";
-   top: 0.14em;
 }
 
 :global(.dark) .link span{

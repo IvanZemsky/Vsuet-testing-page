@@ -7,12 +7,17 @@
 
 .testName{
    flex-grow: 0;
-   padding: 10px;
+   padding: 8px;
    border-radius: 20px;
-   background-color: var(--sky-blue);
+   background-color: var(--block-background);
+   border: 2px solid var(--blue);
    font-size: 20px;
    font-weight: 700;
    color: var(--inverse-text);
+}
+
+:global(.dark) .testName{
+   background-color: var(--background)
 }
 
 .backBtn{
@@ -32,6 +37,6 @@
 
 @media screen and (max-width: 575px) {
    .testName{
-      font-size: 15px;
+      font-size: 12px;
    }
 }

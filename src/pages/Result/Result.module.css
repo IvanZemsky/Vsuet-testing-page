@@ -10,10 +10,26 @@
    align-self: center;
    max-width: 700px;
    width: 100%;
-   padding: 25px;
+   padding: 35px;
    margin: auto 0;
    border-radius: 35px;
    background-color: var(--block-background);
    color: var(--inverse-text);
    transition: 0.2s all linear;
+}
+
+.resultText{
+   margin-bottom: 25px;
+}
+
+.link{
+   display: inline-block;
+   padding: 15px;
+   background-color: var(--white);
+   color: var(--default-black);
+   font-weight: 500;
+}
+
+.link:hover{
+   text-decoration: underline;
 }

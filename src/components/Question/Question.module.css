@@ -1,4 +1,4 @@
-.question{
+.question {
    align-self: center;
    width: 100%;
    max-width: 908px;
@@ -7,22 +7,20 @@
    background-color: var(--background);
 }
 
-.questionTitle{
+.questionTitle {
    margin-bottom: 20px;
-   font-size: 28px;
+   font-size: 24px;
    font-weight: 500;
 }
 
 @media screen and (max-width: 700px) {
-   .question{
+   .question {
       padding: 23px;
    }
-   .questionTitle{
-      font-size: 17px;
+   .questionTitle {
+      font-size: 16px;
       font-weight: 600;
       padding-left: 10px;
       margin-bottom: 15px;
    }
 }
-
-
