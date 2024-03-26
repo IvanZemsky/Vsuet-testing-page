@@ -9,9 +9,9 @@ const Loading = () => {
    useEffect(() => {
       let i = 0;
       const timout = setInterval(() => {
-         i++;
+         (i === clocks.length - 1) ? i = 0 : i++;
          setClock(clocks[i])
-      }, 350);
+      }, 275);
 
       return () => clearInterval(timout)
    }, [])

@@ -1,17 +1,25 @@
 .intro{
-   display: flex;
-   align-items: center;
+   display: grid;
+   grid-template-columns: minmax(auto, 650px) minmax(auto, 700px);
+   grid-template-rows: auto;
    justify-content: center;
+   align-items: center;
+   gap: 25px 40px;
+   font-size: 19px;
 }
 
 .content{
-   max-width: 1150px;
+   border: 2px solid var(--blue);
    padding: 45px;
    border-radius: 45px;
    background-color: var(--block-background);
    color: var(--inverse-text);
    line-height: 1.4;
    font-weight: 500;
+}
+
+:global(.dark) .content{
+   border: 2px solid var(--white);
 }
 
 .title{
@@ -25,7 +33,9 @@
 }
 
 .name{
+   display: block;
    text-decoration: underline;
+   color: var(--white);
    margin-bottom: 20px;
 }
 
@@ -34,8 +44,9 @@
 }
 
 .tags{
-   display: flex;
-   flex-wrap: wrap;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+   grid-auto-rows: 1fr;
    gap: 15px;
    margin-bottom: 15px;
 }
@@ -45,9 +56,13 @@
 }
 
 .startBtn{
+   display: block;
+   max-width: 235px;
+   width: 100%;
    padding: 10px 15px;
    background-color: #fff;
    color: var(--default-black);
+   text-align: center;
    font-weight: 500;
 }
 
@@ -55,9 +70,34 @@
    text-decoration: underline;
 }
 
-@media screen and (max-width: 1601px) {
+.preview{
+   border: 2px solid var(--white);
+   border-radius: 45px;
+   padding: 35px;
+   background-color: var(--background);
+}
+
+.imgWrap{
+   margin-bottom: 15px;
+}
+
+.imgWrap img{
+   border-radius: 15px;
+}
+
+.imgTitle{
+   font-size: 21px;
+   font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
    .intro{
-      font-size: 18px;
+      max-width: 1000px;
+      grid-template-rows: auto auto;
+      grid-template-columns: auto;
+   }
+   .preview{
+      max-width: 650px;
    }
 }
 
@@ -68,18 +108,24 @@
    .content{
       padding: 30px;
    }
+
 }
 
 @media screen and (max-width: 550px) {
    .intro{
       font-size: 13px;
    }
-   .content{
+   .content, .preview{
       padding: 31px 25px;
    }
+   .imgTitle{
+      font-size: 17px;
+   }
+   .tags{
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+   }
    .startBtn{
-      width: 100%;
-      justify-content: center;
+      max-width: 100%;
    }
 }
 

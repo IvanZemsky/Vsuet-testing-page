@@ -29,7 +29,15 @@
    color: var(--inverse-text);
 }
 
-.link:before{
+.link:hover{
+   filter: brightness(95%)
+}
+
+:global(.dark) .link:hover{
+   filter: brightness(110%)
+}
+
+.link::before{
    content: "";
    position: absolute;
    top: 0px;

@@ -21,7 +21,7 @@
    --inverse-text: var(--white);
    --super-text: var(--default-black);
    --dark-text: var(--blue);
-   --background-img-filter: blur(1px);
+   --background-img-filter: blur(1px) brightness(90%);
 
    --selected-answer: var(--sea-blue);
    --checked-answer: var(--sky-blue);
