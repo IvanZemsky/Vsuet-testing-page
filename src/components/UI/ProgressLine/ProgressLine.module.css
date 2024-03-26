@@ -39,7 +39,16 @@
    transition: all 0.12s linear;
 }
 
+.progressLine::-moz-progress-bar{
+   background-color: var(--sea-blue);
+   transition: all 0.12s linear;
+}
+
 :global(.dark) .progressLine::-webkit-progress-value{
+   background-color: var(--light-black);
+}
+
+:global(.dark) .progressLine::-moz-progress-bar{
    background-color: var(--light-black);
 }
 

@@ -15,17 +15,14 @@ const testSlice = createSlice({
    reducers: {
       setIsStarted(state, action) {
          state.isStarted = action.payload;
-         console.info(current(state))
       },
 
       setCurrentTest(state, action) {
          state.currentTest = action.payload;
-         console.log(state.currentTest);
       },
 
       nextQuestion(state) {
          state.currentQuestionIndex++;
-         console.info(current(state));
       },
 
       addToCurrentResult(state, action) {
@@ -40,8 +37,6 @@ const testSlice = createSlice({
             questionIndex: state.currentQuestionIndex,
             selectedAnswerIndex: +selectedAnswerIndex,
          });
-
-         console.info(current(state.currentResult));
       },
 
       addToResults(state) {
