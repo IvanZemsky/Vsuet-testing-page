@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/vsuet-test-page/static/css/main.3b33c280.css",
-    "main.js": "/vsuet-test-page/static/js/main.7d636a42.js",
-    "static/css/576.1213c1e5.chunk.css": "/vsuet-test-page/static/css/576.1213c1e5.chunk.css",
-    "static/js/576.0712788f.chunk.js": "/vsuet-test-page/static/js/576.0712788f.chunk.js",
-    "static/css/544.83502ab4.chunk.css": "/vsuet-test-page/static/css/544.83502ab4.chunk.css",
+    "main.js": "/vsuet-test-page/static/js/main.8da05cba.js",
+    "static/css/72.ceeb7b18.chunk.css": "/vsuet-test-page/static/css/72.ceeb7b18.chunk.css",
+    "static/js/72.eebbab99.chunk.js": "/vsuet-test-page/static/js/72.eebbab99.chunk.js",
+    "static/css/544.4e35fe53.chunk.css": "/vsuet-test-page/static/css/544.4e35fe53.chunk.css",
     "static/js/544.85282420.chunk.js": "/vsuet-test-page/static/js/544.85282420.chunk.js",
     "static/media/Montserrat-ExtraBold.ttf": "/vsuet-test-page/static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
     "static/media/Montserrat-Bold.ttf": "/vsuet-test-page/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
@@ -15,14 +15,14 @@
     "static/media/background.webp": "/vsuet-test-page/static/media/background.54a7ba10f3bccc9834bc.webp",
     "index.html": "/vsuet-test-page/index.html",
     "main.3b33c280.css.map": "/vsuet-test-page/static/css/main.3b33c280.css.map",
-    "main.7d636a42.js.map": "/vsuet-test-page/static/js/main.7d636a42.js.map",
-    "576.1213c1e5.chunk.css.map": "/vsuet-test-page/static/css/576.1213c1e5.chunk.css.map",
-    "576.0712788f.chunk.js.map": "/vsuet-test-page/static/js/576.0712788f.chunk.js.map",
-    "544.83502ab4.chunk.css.map": "/vsuet-test-page/static/css/544.83502ab4.chunk.css.map",
+    "main.8da05cba.js.map": "/vsuet-test-page/static/js/main.8da05cba.js.map",
+    "72.ceeb7b18.chunk.css.map": "/vsuet-test-page/static/css/72.ceeb7b18.chunk.css.map",
+    "72.eebbab99.chunk.js.map": "/vsuet-test-page/static/js/72.eebbab99.chunk.js.map",
+    "544.4e35fe53.chunk.css.map": "/vsuet-test-page/static/css/544.4e35fe53.chunk.css.map",
     "544.85282420.chunk.js.map": "/vsuet-test-page/static/js/544.85282420.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b33c280.css",
-    "static/js/main.7d636a42.js"
+    "static/js/main.8da05cba.js"
   ]
 }
