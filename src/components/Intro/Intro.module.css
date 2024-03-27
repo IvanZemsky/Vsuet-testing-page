@@ -70,6 +70,15 @@
    text-decoration: underline;
 }
 
+@media screen and (max-height: 901px) {
+   .intro{
+      font-size: 17px;
+   }
+   .tags{
+      font-size: 18px;
+   }
+}
+
 @media screen and (max-width: 1280px) {
    .intro{
       max-width: 1000px;
@@ -100,15 +109,6 @@
    }
    .startBtn{
       max-width: 100%;
-   }
-}
-
-@media screen and (max-height: 901px) {
-   .intro{
-      font-size: 17px;
-   }
-   .tags{
-      font-size: 18px;
    }
 }
 
