@@ -2,7 +2,7 @@ import styles from "./Intro.module.css";
 import Tag from "./../UI/Tag/Tag";
 import { useDispatch } from "react-redux";
 import { setIsStarted } from "../../store/slices/testSlice";
-import building from "../../assets/img/building.webp";
+import Preview from "../UI/Preview/Preview";
 
 const Intro = ({ desc }) => {
    const dispatch = useDispatch();
@@ -34,17 +34,7 @@ const Intro = ({ desc }) => {
                Начать
             </button>
          </div>
-         <div className={styles.preview}>
-            <div className={styles.imgWrap}>
-               <img
-                  src={building}
-                  alt="Учебный корпус ВГУИТ, проспект Революции, 19"
-               />
-            </div>
-            <p className={styles.imgTitle}>
-               ВГУИТ — стань инженером своего будущего!
-            </p>
-         </div>
+         <Preview />
       </section>
    );
 };

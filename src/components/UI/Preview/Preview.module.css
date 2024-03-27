@@ -1,0 +1,34 @@
+.preview{
+   border: 2px solid var(--white);
+   border-radius: 45px;
+   padding: 35px;
+   background-color: var(--background);
+}
+
+.imgWrap{
+   margin-bottom: 15px;
+}
+
+.imgWrap img{
+   border-radius: 15px;
+}
+
+.imgTitle{
+   font-size: 21px;
+   font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+   .preview{
+      max-width: 650px;
+   }
+}
+
+@media screen and (max-width: 550px) {
+   .preview{
+      padding: 31px 25px;
+   }
+   .imgTitle{
+      font-size: 17px;
+   }
+}
