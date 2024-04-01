@@ -72,10 +72,14 @@
 
 @media screen and (max-height: 901px) {
    .intro{
-      font-size: 17px;
+      max-width: 1150px;
+      font-size: 15px;
+   }
+   .content{
+      padding: 32px;
    }
    .tags{
-      font-size: 18px;
+      font-size: 19px;
    }
 }
 

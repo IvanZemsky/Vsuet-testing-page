@@ -1,6 +1,5 @@
 import React from "react";
 import styles from './NextQuestionBtn.module.css'
-import RightArrowIcon from "../icons/RightArrowIcon";
 
 const NextQuestionBtn = ({onNextQuestionClick, selectedAnswerIndex}) => {
    const isAnswerSelected = !selectedAnswerIndex;

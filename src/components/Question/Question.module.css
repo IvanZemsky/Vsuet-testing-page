@@ -17,6 +17,9 @@
 }
 
 @media screen and (max-height: 901px) {
+   .question {
+      padding: 23px;
+   }
    .questionTitle{
       font-size: 22px;
    }

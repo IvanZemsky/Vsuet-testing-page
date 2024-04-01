@@ -12,6 +12,12 @@
    aspect-ratio: 2 / 1.4;
 }
 
+@media screen and (max-height: 901px) {
+   .answersList{
+      aspect-ratio: 2 / 1.2;
+   }
+}
+
 @media screen and (max-width: 575px) {
    .controls{
       flex-direction: column;

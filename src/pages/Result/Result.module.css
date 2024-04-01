@@ -23,11 +23,6 @@
    border: 2px solid var(--white);
 }
 
-.resultText{
-   margin-bottom: 25px;
-   font-size: 19px;
-}
-
 .links{
    display: flex;
    gap: 20px;
