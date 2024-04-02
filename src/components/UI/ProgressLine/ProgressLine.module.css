@@ -31,11 +31,11 @@
 }
 
 :global(.dark) .progressLine::-webkit-progress-bar{
-   background-color: var(--light-grey);
+   background-color: #606060;
 }
 
 .progressLine::-webkit-progress-value{
-   background-color: var(--sea-blue);
+   background-color: var(--sky-blue);
    transition: all 0.12s linear;
 }
 
