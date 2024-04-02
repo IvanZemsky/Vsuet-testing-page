@@ -5,6 +5,8 @@ export default function MoonIcon() {
       <svg
          xmlns="http://www.w3.org/2000/svg"
          viewBox="0 0 256 256"
+         stroke="#fff"
+         strokeWidth={5}
       >
          <path
             fill="#fff"

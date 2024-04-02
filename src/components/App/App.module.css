@@ -5,5 +5,5 @@
    gap: 15px;
    min-height: 100vh;
    color: var(--text);
-   backdrop-filter: var(--background-img-filter);
+   background-color: var(--body-background);
 }

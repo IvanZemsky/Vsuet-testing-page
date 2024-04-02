@@ -1,5 +1,4 @@
-import React from "react";
-import "./App.css";
+import styles from './App.module.css'
 import "../../styles/fonts.css";
 import "../../styles/wrapper.css";
 import "../../styles/_vars.css";
@@ -13,7 +12,7 @@ const App = () => {
    const theme = useSelector((state) => state.theme.theme);
 
    return (
-      <div className={`app ${theme}`}>
+      <div className={[styles.app, theme].join(" ")}>
          <Routes>
             <Route path="/" element={<Layout />}>
                <Route index element={<Test />} />

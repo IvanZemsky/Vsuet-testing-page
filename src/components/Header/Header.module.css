@@ -3,6 +3,11 @@
    padding: 14px 0;
    border-bottom: 4px solid var(--block-background);
    font-size: 20px;
+   background-color: var(--super-blue);
+}
+
+:global(.dark) .header{
+   background-color: var(--dark-grey);
 }
 
 .content{
