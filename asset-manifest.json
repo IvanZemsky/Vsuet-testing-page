@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/vsuet-test-page/static/css/main.4b0eb0c3.css",
-    "main.js": "/vsuet-test-page/static/js/main.fa9b469c.js",
-    "static/css/760.92255fdf.chunk.css": "/vsuet-test-page/static/css/760.92255fdf.chunk.css",
-    "static/js/760.decbe9db.chunk.js": "/vsuet-test-page/static/js/760.decbe9db.chunk.js",
+    "main.js": "/vsuet-test-page/static/js/main.b6f9cef7.js",
+    "static/css/730.b3d056e8.chunk.css": "/vsuet-test-page/static/css/730.b3d056e8.chunk.css",
+    "static/js/730.f1fc4fa7.chunk.js": "/vsuet-test-page/static/js/730.f1fc4fa7.chunk.js",
     "static/css/859.44464eda.chunk.css": "/vsuet-test-page/static/css/859.44464eda.chunk.css",
     "static/js/859.f21f9129.chunk.js": "/vsuet-test-page/static/js/859.f21f9129.chunk.js",
     "static/media/Montserrat-ExtraBold.ttf": "/vsuet-test-page/static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
@@ -11,17 +11,17 @@
     "static/media/Montserrat-SemiBold.ttf": "/vsuet-test-page/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Medium.ttf": "/vsuet-test-page/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
     "static/media/Montserrat-Regular.ttf": "/vsuet-test-page/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
-    "static/media/building.webp": "/vsuet-test-page/static/media/building.d34ebfb18b74ec315acb.webp",
+    "static/media/background.webp": "/vsuet-test-page/static/media/background.54a7ba10f3bccc9834bc.webp",
     "index.html": "/vsuet-test-page/index.html",
     "main.4b0eb0c3.css.map": "/vsuet-test-page/static/css/main.4b0eb0c3.css.map",
-    "main.fa9b469c.js.map": "/vsuet-test-page/static/js/main.fa9b469c.js.map",
-    "760.92255fdf.chunk.css.map": "/vsuet-test-page/static/css/760.92255fdf.chunk.css.map",
-    "760.decbe9db.chunk.js.map": "/vsuet-test-page/static/js/760.decbe9db.chunk.js.map",
+    "main.b6f9cef7.js.map": "/vsuet-test-page/static/js/main.b6f9cef7.js.map",
+    "730.b3d056e8.chunk.css.map": "/vsuet-test-page/static/css/730.b3d056e8.chunk.css.map",
+    "730.f1fc4fa7.chunk.js.map": "/vsuet-test-page/static/js/730.f1fc4fa7.chunk.js.map",
     "859.44464eda.chunk.css.map": "/vsuet-test-page/static/css/859.44464eda.chunk.css.map",
     "859.f21f9129.chunk.js.map": "/vsuet-test-page/static/js/859.f21f9129.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b0eb0c3.css",
-    "static/js/main.fa9b469c.js"
+    "static/js/main.b6f9cef7.js"
   ]
 }
