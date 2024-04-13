@@ -11,7 +11,6 @@
 
 .nextQuestionBtn svg{
    width: 42px;
-   height: 74px;
    fill: var(--sea-blue);
    transition: 0.14s all linear;
 }
@@ -27,9 +26,11 @@
 @media screen and (max-width: 575px) {
    .nextQuestionBtn{
       width: 100%;
-      font-size: 25px;
-      border-radius: 23px;
       padding: 15px;
+      border-radius: 23px;
+   }
+   .nextQuestionBtn svg{
+      width: 20px;
    }
 }
 
