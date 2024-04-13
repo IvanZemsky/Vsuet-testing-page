@@ -38,6 +38,9 @@
    .nextQuestionBtn:hover{
       background-color: var(--dark-background);
    }
+   .nextQuestionBtn:hover svg{
+      fill: var(--sea-blue);
+   }
    .nextQuestionBtn:active{
       background-color: var(--checked-answer);
    }
