@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/vsuet-test-page/static/css/main.4b0eb0c3.css",
-    "main.js": "/vsuet-test-page/static/js/main.8248bf18.js",
+    "main.js": "/vsuet-test-page/static/js/main.35c519cb.js",
     "static/css/944.0affd3cc.chunk.css": "/vsuet-test-page/static/css/944.0affd3cc.chunk.css",
     "static/js/944.46e15373.chunk.js": "/vsuet-test-page/static/js/944.46e15373.chunk.js",
     "static/css/859.44464eda.chunk.css": "/vsuet-test-page/static/css/859.44464eda.chunk.css",
     "static/js/859.f21f9129.chunk.js": "/vsuet-test-page/static/js/859.f21f9129.chunk.js",
+    "static/js/12.1f3e6110.chunk.js": "/vsuet-test-page/static/js/12.1f3e6110.chunk.js",
     "static/media/Montserrat-ExtraBold.ttf": "/vsuet-test-page/static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
     "static/media/Montserrat-Bold.ttf": "/vsuet-test-page/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/vsuet-test-page/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
@@ -14,14 +15,15 @@
     "static/media/background.webp": "/vsuet-test-page/static/media/background.54a7ba10f3bccc9834bc.webp",
     "index.html": "/vsuet-test-page/index.html",
     "main.4b0eb0c3.css.map": "/vsuet-test-page/static/css/main.4b0eb0c3.css.map",
-    "main.8248bf18.js.map": "/vsuet-test-page/static/js/main.8248bf18.js.map",
+    "main.35c519cb.js.map": "/vsuet-test-page/static/js/main.35c519cb.js.map",
     "944.0affd3cc.chunk.css.map": "/vsuet-test-page/static/css/944.0affd3cc.chunk.css.map",
     "944.46e15373.chunk.js.map": "/vsuet-test-page/static/js/944.46e15373.chunk.js.map",
     "859.44464eda.chunk.css.map": "/vsuet-test-page/static/css/859.44464eda.chunk.css.map",
-    "859.f21f9129.chunk.js.map": "/vsuet-test-page/static/js/859.f21f9129.chunk.js.map"
+    "859.f21f9129.chunk.js.map": "/vsuet-test-page/static/js/859.f21f9129.chunk.js.map",
+    "12.1f3e6110.chunk.js.map": "/vsuet-test-page/static/js/12.1f3e6110.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b0eb0c3.css",
-    "static/js/main.8248bf18.js"
+    "static/js/main.35c519cb.js"
   ]
 }
