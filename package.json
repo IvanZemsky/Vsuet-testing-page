@@ -1,7 +1,7 @@
 {
   "name": "vsuet-test-page",
   "version": "0.1.0",
-  "homepage": "https://IvanZemsky.github.io/vsuet-test-page",
+  "homepage": "https://ivanzemsky.github.io/vsuet-test-page/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.1.0",
