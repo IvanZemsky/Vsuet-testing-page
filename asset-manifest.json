@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vsuet-test-page/static/css/main.4b0eb0c3.css",
-    "main.js": "/vsuet-test-page/static/js/main.0c945083.js",
+    "main.js": "/vsuet-test-page/static/js/main.8248bf18.js",
     "static/css/944.0affd3cc.chunk.css": "/vsuet-test-page/static/css/944.0affd3cc.chunk.css",
     "static/js/944.46e15373.chunk.js": "/vsuet-test-page/static/js/944.46e15373.chunk.js",
     "static/css/859.44464eda.chunk.css": "/vsuet-test-page/static/css/859.44464eda.chunk.css",
@@ -14,7 +14,7 @@
     "static/media/background.webp": "/vsuet-test-page/static/media/background.54a7ba10f3bccc9834bc.webp",
     "index.html": "/vsuet-test-page/index.html",
     "main.4b0eb0c3.css.map": "/vsuet-test-page/static/css/main.4b0eb0c3.css.map",
-    "main.0c945083.js.map": "/vsuet-test-page/static/js/main.0c945083.js.map",
+    "main.8248bf18.js.map": "/vsuet-test-page/static/js/main.8248bf18.js.map",
     "944.0affd3cc.chunk.css.map": "/vsuet-test-page/static/css/944.0affd3cc.chunk.css.map",
     "944.46e15373.chunk.js.map": "/vsuet-test-page/static/js/944.46e15373.chunk.js.map",
     "859.44464eda.chunk.css.map": "/vsuet-test-page/static/css/859.44464eda.chunk.css.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.4b0eb0c3.css",
-    "static/js/main.0c945083.js"
+    "static/js/main.8248bf18.js"
   ]
 }
